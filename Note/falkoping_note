@@ -1,0 +1,25 @@
+preview:
+python src\main.py --config config\falkoping_local.json --send-mode history_data --preview --preview-limit 5
+
+
+真实发送 5 条测试：
+python src\main.py --config config\falkoping_local.json --send-mode history_data --send-limit 5
+
+python src\main.py --config config\karlskrona_local.json --send-mode history_data --send-limit 5
+
+
+全量发送当前 local.json 指定目录的数据：
+python src\main.py --config config\falkoping_local.json --send-mode history_data
+
+
+自动扫描 Falköping 目录，从最早未完成日期开始正式发送：
+python src\auto_runner.py --source-root src\sourceData\falkoping --config config\falkoping_local.json --send-mode history_data
+
+
+自动扫描，但从指定日期开始正式发送：
+python src\auto_runner.py --source-root src\sourceData\falkoping --config config\falkoping_local.json --start-date 2026-08-09 --send-mode history_data
+
+
+
+
+

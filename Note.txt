@@ -1,0 +1,49 @@
+local.json 
+
+
+  "send_mode": "normal",                                                  
+  "source": {
+    "directory": "src/sourceData/0520",
+    "file_pattern": "*.parquet",
+    "files": [],                                                          默认值为空，默认发送当天全部文件，也可赋值指定需要发送的具体文件
+    "batch_by_subdirectory": false                                        True: 分批发送多天Data
+  },
+
+
+
+
+
+command：
+
+python src\main.py --preview --preview-limit 5
+
+python src\main.py  --send-limit 5
+
+
+python src\main.py --send-mode history_data --send-limit 5
+
+
+python src/auto_runner.py --source-root src/sourceData_test --preview-limit 5
+
+
+python src\main.py --config config\falkoping_local.json --preview --preview-limit 5
+
+
+python src\auto_runner.py --source-root src\sourceData_test --start-date 2026-08-10 --send-limit 1
+
+
+python src\auto_runner.py --source-root src\sourceData --start-date 2026-08-12
+
+question：
+
+mapping 覆盖程度 （新电站， 新拓扑图需要修改的内容）
+
+不同电站 Parquet 的 metric 命名格式 是否一致 （AMMETER）
+
+local.json  mqtt/config.py  transmission/config.py 里 encrypted_port  plain_port 不一致
+
+
+
+python src\main.py --config config\varnamo_local.json --send-mode history_data --preview --preview-limit 5
+
+python src\main.py --config config\varnamo_local.json --send-mode history_data 

@@ -1,0 +1,319 @@
+{
+    "DESCRIPTION": [
+        {
+            "Measurement Point Number": "测点编号"
+        }
+    ],
+    "Genomsnittlig temperatur": [
+        {
+            "Measurement Point Number": "31030",
+            "type": "Telemetry",
+            "Device Type": "Rack"
+        }
+    ],
+    "Genomsnittlig spänning": [
+        {
+            "Measurement Point Number": "31017",
+            "type": "Telemetry",
+            "Device Type": "Rack"
+        }
+    ],
+    "Ström": [
+        {
+            "Measurement Point Number": "31002",
+            "type": "Telemetry",
+            "Device Type": "Rack"
+        }
+    ],
+    "Max temperatur cell": [
+        {
+            "Measurement Point Number": "31028",
+            "type": "Telemetry",
+            "Device Type": "Rack"
+        },
+        {
+            "Measurement Point Number": "50064",
+            "type": "Telemetry",
+            "Device Type": "BSC"
+        }
+    ],
+    "Max spänning cell": [
+        {
+            "Measurement Point Number": "31015",
+            "type": "Telemetry",
+            "Device Type": "Rack"
+        },
+        {
+            "Measurement Point Number": "50062",
+            "type": "Telemetry",
+            "Device Type": "BSC"
+        }
+    ],
+    "Max spänning pack": [
+        {
+            "Measurement Point Number": "30026",
+            "type": "Telemetry",
+            "Device Type": "PCS"
+        }
+    ],
+    "Min temperatur cell": [
+        {
+            "Measurement Point Number": "31026",
+            "type": "Telemetry",
+            "Device Type": "Rack"
+        },
+        {
+            "Measurement Point Number": "50065",
+            "type": "Telemetry",
+            "Device Type": "BSC"
+        }
+    ],
+    "Min spänning cell": [
+        {
+            "Measurement Point Number": "31013",
+            "type": "Telemetry",
+            "Device Type": "Rack"
+        },
+        {
+            "Measurement Point Number": "50063",
+            "type": "Telemetry",
+            "Device Type": "BSC"
+        }
+    ],
+    "Min spänning pack": [
+        {
+            "Measurement Point Number": "30027",
+            "type": "Telemetry",
+            "Device Type": "PCS"
+        }
+    ],
+    "Position max spänning cell (#BMU)": [
+        {
+            "Measurement Point Number": "30021",
+            "type": "Telemetry",
+            "Device Type": "PCS"
+        },
+        {
+            "Measurement Point Number": "50139",
+            "type": "Telemetry",
+            "Device Type": "BSC"
+        }
+    ],
+    "Position max spänning cell (#Cell)": [
+        {
+            "Measurement Point Number": "31154",
+            "type": "Telemetry",
+            "Device Type": "Rack"
+        },
+        {
+            "Measurement Point Number": "50140",
+            "type": "Telemetry",
+            "Device Type": "BSC"
+        }
+    ],
+    "Position max spänning pack (#Pack)": [
+        {
+            "Measurement Point Number": "31145",
+            "type": "Telemetry",
+            "Device Type": "Rack"
+        }
+    ],
+    "Position min temperatur cell (#Cell)": [
+        {
+            "Measurement Point Number": "31163",
+            "type": "Telemetry",
+            "Device Type": "Rack"
+        },
+        {
+            "Measurement Point Number": "50146",
+            "type": "Telemetry",
+            "Device Type": "BSC"
+        }
+    ],
+    "Position min spänning cell (#BMU)": [
+        {
+            "Measurement Point Number": "30022",
+            "type": "Telemetry",
+            "Device Type": "PCS"
+        },
+        {
+            "Measurement Point Number": "50141",
+            "type": "Telemetry",
+            "Device Type": "BSC"
+        }
+    ],
+    "Position min spänning cell (#Cell)": [
+        {
+            "Measurement Point Number": "31157",
+            "type": "Telemetry",
+            "Device Type": "Rack"
+        },
+        {
+            "Measurement Point Number": "50142",
+            "type": "Telemetry",
+            "Device Type": "BSC"
+        }
+    ],
+    "Position min spänning pack (#Pack)": [
+        {
+            "Measurement Point Number": "31146",
+            "type": "Telemetry",
+            "Device Type": "Rack"
+        }
+    ],
+    "SoC": [
+        {
+            "Measurement Point Number": "31003",
+            "type": "Telemetry",
+            "Device Type": "Rack"
+        },
+        {
+            "Measurement Point Number": "50054",
+            "type": "Telemetry",
+            "Device Type": "BSC"
+        }
+    ],
+    "Spänning": [
+        {
+            "Measurement Point Number": "31001",
+            "type": "Telemetry",
+            "Device Type": "Rack"
+        }
+    ],
+    "Position max temperatur cell (#BMU)": [
+        {
+            "Measurement Point Number": "30023",
+            "type": "Telemetry",
+            "Device Type": "PCS"
+        },
+        {
+            "Measurement Point Number": "50143",
+            "type": "Telemetry",
+            "Device Type": "BSC"
+        }
+    ],
+    "Position max temperatur cell (#Cell)": [
+        {
+            "Measurement Point Number": "31160",
+            "type": "Telemetry",
+            "Device Type": "Rack"
+        },
+        {
+            "Measurement Point Number": "50144",
+            "type": "Telemetry",
+            "Device Type": "BSC"
+        }
+    ],
+    "Position max temperatur cell (#Rack)": [
+        {
+            "Measurement Point Number": "50072",
+            "type": "Telemetry",
+            "Device Type": "BSC"
+        }
+    ],
+    "Position max spänning cell (#Rack)": [
+        {
+            "Measurement Point Number": "50068",
+            "type": "Telemetry",
+            "Device Type": "BSC"
+        }
+    ],
+    "Position min temperatur cell (#Rack)": [
+        {
+            "Measurement Point Number": "50074",
+            "type": "Telemetry",
+            "Device Type": "BSC"
+        }
+    ],
+    "Position min spänning cell (#Rack)": [
+        {
+            "Measurement Point Number": "50070",
+            "type": "Telemetry",
+            "Device Type": "BSC"
+        }
+    ],
+    "System tillgänglig laddningseffekt": [
+        {
+            "Measurement Point Number": "50083",
+            "type": "Telemetry",
+            "Device Type": "BSC"
+        }
+    ],
+    "System tillgänglig urladdningseffekt": [
+        {
+            "Measurement Point Number": "50084",
+            "type": "Telemetry",
+            "Device Type": "BSC"
+        }
+    ],
+    "Serviceström": [
+        {
+            "Measurement Point Number": "50053",
+            "type": "Telemetry",
+            "Device Type": "BSC"
+        }
+    ],
+    "Servicespänning": [
+        {
+            "Measurement Point Number": "50052",
+            "type": "Telemetry",
+            "Device Type": "BSC"
+        }
+    ],
+    "Total laddningsenergi(Wh)": [
+        {
+            "Measurement Point Number": "50093",
+            "type": "Telemetry",
+            "Device Type": "BSC"
+        }
+    ],
+    "Total urladdningsenergi(Wh)": [
+        {
+            "Measurement Point Number": "50094",
+            "type": "Telemetry",
+            "Device Type": "BSC"
+        }
+    ],
+    "System tillgänglig laddningsenergi": [
+        {
+            "Measurement Point Number": "49024",
+            "type": "Telemetry",
+            "Device Type": "LC"
+        }
+    ],
+    "System tillgänglig urladdningsenergi": [
+        {
+            "Measurement Point Number": "49025",
+            "type": "Telemetry",
+            "Device Type": "LC"
+        }
+    ],
+    "DC spänning": [
+        {
+            "Measurement Point Number": "44001",
+            "type": "Telemetry",
+            "Device Type": "PCS"
+        }
+    ],
+    "Innetemperatur": [
+        {
+            "Measurement Point Number": "44030",
+            "type": "Telemetry",
+            "Device Type": "PCS"
+        }
+    ],
+    "Läckström": [
+        {
+            "Measurement Point Number": "44085",
+            "type": "Telemetry",
+            "Device Type": "PCS"
+        }
+    ],
+    "Transformator oljetemperatur": [
+        {
+            "Measurement Point Number": "44084",
+            "type": "Telemetry",
+            "Device Type": "PCS"
+        }
+    ]
+}

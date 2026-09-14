@@ -1,0 +1,5 @@
+tzdata
+pytz
+pyarrow
+paho-mqtt
+watchdog
