@@ -34,6 +34,7 @@ STATIONS = {
     "Mjolby": PROJECT_ROOT / "config" / "mjolby_local.json",
     "Katrineholm": PROJECT_ROOT / "config" / "katrineholm_local.json",
     "Varberg": PROJECT_ROOT / "config" / "varberg_local.json",
+    "Test": PROJECT_ROOT / "config" / "test_local.json",
 }
 
 LOGGER = logging.getLogger("watch_folder")

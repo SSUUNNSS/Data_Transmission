@@ -84,7 +84,12 @@ def setup_logging(log_file: Path) -> None:
     console_handler.setLevel(logging.INFO)
     console_handler.addFilter(ConsoleStageFilter())
     console_handler.addFilter(StationContextFilter())
-    console_handler.setFormatter(logging.Formatter("%(message)s"))
+    console_handler.setFormatter(
+        logging.Formatter(
+            "%(asctime)s %(message)s",
+            datefmt="%Y-%m-%d %H:%M:%S",
+        )
+    )
 
     root_logger.addHandler(file_handler)
     root_logger.addHandler(console_handler)
