@@ -36,13 +36,13 @@ STATIONS = {
     "Varberg": PROJECT_ROOT / "config" / "varberg_local.json",
     "Test": PROJECT_ROOT / "config" / "test_local.json",
     "sala": PROJECT_ROOT / "config" / "sala_local.json",
-    "eslov_local": PROJECT_ROOT / "config" / "eslov_local.json",
-    "gavle_local": PROJECT_ROOT / "config" / "gavle_local.json",
-    "goteborg_skogen_local": PROJECT_ROOT / "config" / "goteborg_skogen_local.json",
-    "kristinehamn_local": PROJECT_ROOT / "config" / "kristinehamn_local.json",
-    "lerum_local": PROJECT_ROOT / "config" / "lerum_local.json",
-    "rattvik_local": PROJECT_ROOT / "config" / "rattvik_local.json",
-    "staffan_local": PROJECT_ROOT / "config" / "staffan_local.json",
+    "eslov": PROJECT_ROOT / "config" / "eslov_local.json",
+    "gavle": PROJECT_ROOT / "config" / "gavle_local.json",
+    "goteborg_skogen": PROJECT_ROOT / "config" / "goteborg_skogen_local.json",
+    "kristinehamn": PROJECT_ROOT / "config" / "kristinehamn_local.json",
+    "lerum": PROJECT_ROOT / "config" / "lerum_local.json",
+    "rattvik": PROJECT_ROOT / "config" / "rattvik_local.json",
+    "staffan": PROJECT_ROOT / "config" / "staffan_local.json",
 }
 
 LOGGER = logging.getLogger("watch_folder")

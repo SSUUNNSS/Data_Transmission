@@ -35,7 +35,7 @@ from pathlib import Path
 import pyarrow as pa
 import pyarrow.parquet as pq
 
-from preprocessing_utils import iter_resampled, list_batches
+from preprocessing_utils import Batch, iter_resampled, list_batches
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_SOURCE_DIR = PROJECT_ROOT / "src" / "sourceData" / "normal" / "falkoping"
@@ -64,6 +64,16 @@ def parse_args() -> argparse.Namespace:
         "--only-date",
         default="",
         help="Only process this date (subdirectory name), e.g. 2026-08-01.",
+    )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Rewrite output files even when they already exist.",
+    )
+    parser.add_argument(
+        "--input-file",
+        default="",
+        help="Process only this raw file and name the output after that file.",
     )
     return parser.parse_args()
 
@@ -132,7 +142,15 @@ def main() -> None:
 
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    batches = list_batches(source_dir, batch_by_subdirectory=True)
+    if args.input_file:
+        input_file = Path(args.input_file).expanduser().resolve()
+        if not input_file.is_file():
+            raise SystemExit(f"Input file not found: {input_file}")
+        if input_file.parent.name != only_date:
+            raise SystemExit(f"Input file is not inside date directory {only_date}: {input_file}")
+        batches = [Batch(name=only_date, files=[input_file])]
+    else:
+        batches = list_batches(source_dir, batch_by_subdirectory=True)
 
     # 只处理日期命名的子目录，跳过 Falkoping_parquet 这类非日期目录。
     batches = [batch for batch in batches if DATE_DIR_RE.match(batch.name)]
@@ -150,10 +168,14 @@ def main() -> None:
         # 每天一个以日期命名的子文件夹，内含同名 parquet，方便按天上传。
         day_dir = output_dir / batch.name
         day_dir.mkdir(parents=True, exist_ok=True)
-        output_path = day_dir / f"{batch.name}.parquet"
+        if args.input_file:
+            output_name = f"{batch.files[0].stem}.parquet"
+        else:
+            output_name = f"{batch.name}.parquet"
+        output_path = day_dir / output_name
 
         # 增量：已生成过的日期直接跳过（文件存在且非空即视为已完成）。
-        if output_path.exists() and output_path.stat().st_size > 0:
+        if not args.force and output_path.exists() and output_path.stat().st_size > 0:
             print(f"{batch.name}: skip (already exists)")
             skipped += 1
             continue
