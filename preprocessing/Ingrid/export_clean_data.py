@@ -6,7 +6,7 @@
     - value ：数值
 
 重采样规则（见 FalkopingSourceReader.iter_batch_records_resampled）：
-    每个 (metric, 5 分钟桶) 只保留时间最小的一条，全量 528 万行 → 约 19 万行。
+    每个 (metric, 1 分钟桶) 只保留时间最小的一条。
 
 用法（在项目根目录下）：
     .venv\\Scripts\\python.exe preprocessing\\Ingrid\\export_clean_data.py

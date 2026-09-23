@@ -60,7 +60,7 @@ def iter_resampled(batch: Batch) -> Iterator[Record]:
     earliest: dict[tuple[str, datetime], Record] = {}
     for record in iter_records(batch):
         bucket = record.ts_utc.replace(
-            minute=(record.ts_utc.minute // 5) * 5,
+            minute=record.ts_utc.minute,
             second=0,
             microsecond=0,
         )
