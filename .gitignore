@@ -10,9 +10,9 @@ outputs/
 src/sourceData/
 *.parquet
 
-config/*_local.json
 
-*.pem
+
+
 .env
 .env.*
 Add multi-station MQTT watcher with checkpoint resume

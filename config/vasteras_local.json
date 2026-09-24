@@ -1,0 +1,51 @@
+{
+  "send_mode": "history_data",
+  "source": {
+    "directory": "src/sourceData/normal/vasteras/2026-08-01",
+    "file_pattern": "*.parquet",
+    "files": [],
+    "batch_by_subdirectory": false
+  },
+  "message": {
+    "ps_id": 27,
+    "app_key": "wAGlir8dkxF2w8sx",
+    "source": "ubuntu-server",
+    "default_data_type": "telemetry",
+    "data_type_mapping_path": "config/data_type_mapping.json"
+  },
+  "mqtt": {
+    "username": "wAGlir8dkxF2w8sx",
+    "password": "5f5e9d6bc6484093b19e110d50ead488",
+    "client_id": "wAGlir8dkxF2w8sx",
+    "encrypted": false,
+    "encrypted_host": "euinsightiot.isolarinsightportal.com",
+    "encrypted_port": 16668,
+    "plain_host": "euinsightiot.isolarinsightportal.com",
+    "plain_port": 19999,
+    "connect_timeout_seconds": 10,
+    "reconnect_min_delay_seconds": 1,
+    "reconnect_max_delay_seconds": 30,
+    "max_reconnect_attempts": 3,
+    "tls": {
+      "enabled": false,
+      "ca_cert": "src/my_root_ca.pem",
+      "client_cert": "",
+      "client_key": "",
+      "insecure_skip_verify": false
+    },
+    "publish": {
+      "qos": 1,
+      "retain": false,
+      "keepalive": 60,
+      "max_payload_bytes": 65536,
+      "publish_retries": 3,
+      "publish_retry_interval_seconds": 1,
+      "publish_timeout_seconds": 10
+    },
+    "topics": {
+      "telemetry_template": "isolarcloud/insight/pub/rundata/5min/{app_key}/enum_0_0_0",
+      "telesignaling_template": "isolarcloud/insight/pub/faultdata/{app_key}/enum_0_0_0",
+      "history_data_template": "isolarcloud/insight/pub/rundata/history/{app_key}/enum_0_0_0"
+    }
+  }
+}
