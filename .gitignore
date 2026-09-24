@@ -4,10 +4,10 @@ __pycache__/
 .venv/
 
 logs/
-state/
+
 outputs/
 
-src/sourceData/
+
 *.parquet
 
 

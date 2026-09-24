@@ -1,0 +1,267 @@
+{
+  "processed_batches": {
+    "2026-08-16": {
+      "status": "completed",
+      "completed_at": "2026-09-02T10:39:20.240664+00:00",
+      "send_mode": "history_data",
+      "parquet_files": 1,
+      "records_read": 119212,
+      "messages_built": 62887,
+      "messages_published": 62887,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    },
+    "2026-08-17": {
+      "status": "completed",
+      "completed_at": "2026-09-02T10:51:11.023752+00:00",
+      "send_mode": "history_data",
+      "parquet_files": 1,
+      "records_read": 114533,
+      "messages_built": 60380,
+      "messages_published": 60380,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    },
+    "2026-08-18": {
+      "status": "completed",
+      "completed_at": "2026-09-02T11:04:11.016634+00:00",
+      "send_mode": "history_data",
+      "parquet_files": 1,
+      "records_read": 115051,
+      "messages_built": 62217,
+      "messages_published": 62217,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    },
+    "2026-08-19": {
+      "status": "completed",
+      "completed_at": "2026-09-02T11:15:45.960518+00:00",
+      "send_mode": "history_data",
+      "parquet_files": 1,
+      "records_read": 109977,
+      "messages_built": 58239,
+      "messages_published": 58239,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    },
+    "2026-08-20": {
+      "status": "completed",
+      "completed_at": "2026-09-02T11:27:41.607308+00:00",
+      "send_mode": "history_data",
+      "parquet_files": 1,
+      "records_read": 118677,
+      "messages_built": 62689,
+      "messages_published": 62689,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    },
+    "2026-08-21": {
+      "status": "completed",
+      "completed_at": "2026-09-02T11:39:56.383608+00:00",
+      "send_mode": "history_data",
+      "parquet_files": 1,
+      "records_read": 103234,
+      "messages_built": 53561,
+      "messages_published": 53561,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    },
+    "2026-08-22": {
+      "status": "completed",
+      "completed_at": "2026-09-02T11:55:43.060301+00:00",
+      "send_mode": "history_data",
+      "parquet_files": 1,
+      "records_read": 115045,
+      "messages_built": 61087,
+      "messages_published": 61087,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    },
+    "2026-08-23": {
+      "status": "completed",
+      "completed_at": "2026-09-02T12:39:46.350731+00:00",
+      "send_mode": "history_data",
+      "parquet_files": 1,
+      "records_read": 109546,
+      "messages_built": 57202,
+      "messages_published": 57202,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    },
+    "2026-08-24": {
+      "status": "completed",
+      "completed_at": "2026-09-02T12:54:08.679421+00:00",
+      "send_mode": "history_data",
+      "parquet_files": 1,
+      "records_read": 118590,
+      "messages_built": 62765,
+      "messages_published": 62765,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    },
+    "2026-08-25": {
+      "status": "completed",
+      "completed_at": "2026-09-02T13:07:39.854006+00:00",
+      "send_mode": "history_data",
+      "parquet_files": 1,
+      "records_read": 114941,
+      "messages_built": 60498,
+      "messages_published": 60498,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    }
+  },
+  "processed_files": {
+    "2026-08-16/2026-08-16.parquet": {
+      "status": "completed",
+      "completed_at": "2026-09-11T08:12:20.701062+00:00",
+      "send_mode": "history_data",
+      "records_read": 119212,
+      "messages_built": 62887,
+      "messages_published": 62887,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    },
+    "2026-08-17/2026-08-17.parquet": {
+      "status": "completed",
+      "completed_at": "2026-09-11T08:23:42.312379+00:00",
+      "send_mode": "history_data",
+      "records_read": 114533,
+      "messages_built": 60380,
+      "messages_published": 60380,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    },
+    "2026-08-18/2026-08-18.parquet": {
+      "status": "completed",
+      "completed_at": "2026-09-11T08:35:33.157755+00:00",
+      "send_mode": "history_data",
+      "records_read": 115051,
+      "messages_built": 62217,
+      "messages_published": 62217,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    },
+    "2026-08-19/2026-08-19.parquet": {
+      "status": "completed",
+      "completed_at": "2026-09-11T08:47:55.044460+00:00",
+      "send_mode": "history_data",
+      "records_read": 109977,
+      "messages_built": 58239,
+      "messages_published": 58239,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    },
+    "2026-08-20/2026-08-20.parquet": {
+      "status": "completed",
+      "completed_at": "2026-09-11T09:01:31.745055+00:00",
+      "send_mode": "history_data",
+      "records_read": 118677,
+      "messages_built": 62689,
+      "messages_published": 62689,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    },
+    "2026-08-21/2026-08-21.parquet": {
+      "status": "completed",
+      "completed_at": "2026-09-11T09:13:18.231992+00:00",
+      "send_mode": "history_data",
+      "records_read": 103234,
+      "messages_built": 53561,
+      "messages_published": 53561,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    },
+    "2026-08-22/2026-08-22.parquet": {
+      "status": "completed",
+      "completed_at": "2026-09-11T09:26:30.824319+00:00",
+      "send_mode": "history_data",
+      "records_read": 115045,
+      "messages_built": 61087,
+      "messages_published": 61087,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    },
+    "2026-08-23/2026-08-23.parquet": {
+      "status": "completed",
+      "completed_at": "2026-09-11T09:38:16.142921+00:00",
+      "send_mode": "history_data",
+      "records_read": 109546,
+      "messages_built": 57202,
+      "messages_published": 57202,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    },
+    "2026-09-08/kna1_lc_test_2026-09-10.parquet": {
+      "status": "completed",
+      "completed_at": "2026-09-14T08:40:00.933487+00:00",
+      "send_mode": "history_data",
+      "records_read": 9192,
+      "messages_built": 4596,
+      "messages_published": 4596,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    },
+    "2026-09-08/2026-08-25.parquet": {
+      "status": "completed",
+      "completed_at": "2026-09-14T08:53:25.846544+00:00",
+      "send_mode": "history_data",
+      "records_read": 114941,
+      "messages_built": 60498,
+      "messages_published": 60498,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    },
+    "2026-08-24/2026-08-24.parquet": {
+      "status": "completed",
+      "completed_at": "2026-09-14T10:23:55.213012+00:00",
+      "send_mode": "history_data",
+      "records_read": 118590,
+      "messages_built": 62765,
+      "messages_published": 62765,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    },
+    "2026-08-25/2026-08-25.parquet": {
+      "status": "completed",
+      "completed_at": "2026-09-14T10:42:15.872624+00:00",
+      "send_mode": "history_data",
+      "records_read": 114941,
+      "messages_built": 60498,
+      "messages_published": 60498,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    },
+    "normal/2026-09-11/kna1_lc_test_2026-09-10.parquet": {
+      "status": "completed",
+      "completed_at": "2026-09-14T13:28:55.820844+00:00",
+      "send_mode": "normal",
+      "records_read": 9192,
+      "messages_built": 4596,
+      "messages_published": 4596,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    },
+    "history_data/2026-09-11/kna1_lc_test_2026-09-10.parquet": {
+      "status": "completed",
+      "completed_at": "2026-09-14T13:30:10.754616+00:00",
+      "send_mode": "history_data",
+      "records_read": 9192,
+      "messages_built": 4596,
+      "messages_published": 4596,
+      "messages_failed": 0,
+      "messages_skipped": 0,
+      "next_offset": 4596
+    },
+    "normal/2026-09-11/kna1_lc_test_2026-09-10_part_08_of_10.parquet": {
+      "status": "completed",
+      "completed_at": "2026-09-14T13:29:34.662441+00:00",
+      "send_mode": "normal",
+      "records_read": 919,
+      "messages_built": 460,
+      "messages_published": 460,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    }
+  }
+}

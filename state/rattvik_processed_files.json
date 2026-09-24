@@ -1,0 +1,14 @@
+{
+  "processed_files": {
+    "normal/2026-09-22/rattvik_260921224004.parquet": {
+      "status": "completed",
+      "completed_at": "2026-09-22T14:51:45.071269+00:00",
+      "send_mode": "normal",
+      "records_read": 2588,
+      "messages_built": 1635,
+      "messages_published": 1635,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    }
+  }
+}

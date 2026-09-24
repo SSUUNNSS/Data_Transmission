@@ -1,0 +1,14 @@
+{
+  "processed_files": {
+    "normal/2026-09-22/lerum_260922031014.parquet": {
+      "status": "completed",
+      "completed_at": "2026-09-22T14:33:45.048281+00:00",
+      "send_mode": "normal",
+      "records_read": 7325,
+      "messages_built": 3472,
+      "messages_published": 3472,
+      "messages_failed": 0,
+      "messages_skipped": 0
+    }
+  }
+}
